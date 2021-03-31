@@ -126,3 +126,14 @@ and run
 ```bash
 sudo ldconfig
 ```
+
+## Benchmarking notes
+
+Use [glmark2](https://github.com/glmark2/glmark2) version 2021.02 to avoid artefacts.
+
+```
+sudo apt-repo add 268669
+sudo apt-get update
+sudo apt-get install glmark-es2 glmark-es2-wayland
+glmark-es2 --fullscreen --annotate --run-forever
+```
