@@ -69,7 +69,7 @@ use `baikal_minimal_defconfig`
 
 ### Mesa
 
-[Mesa 21.0 branch](https://github.com/mesa3d/mesa/tree/21.0) with these patches
+[Patched Mesa 21.0](https://github.com/asheplyakov/mesa/tree/panfrost-mali-t628)
 
 * [panfrost: mark T6xx as supported](http://git.altlinux.org/gears/M/Mesa.git?p=Mesa.git;a=patch;h=046df28d274ca1632b17febfed1d185dc61eee8b)
 * [kmsro: added entry points for baikal_vdu (BE-M1000 SoC)](http://git.altlinux.org/gears/M/Mesa.git?p=Mesa.git;a=patch;h=aa7f229d6574d7d4358b95aee8fda3d68446195c)
